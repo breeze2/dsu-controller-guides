@@ -32,6 +32,17 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     > * macOS: `~/Library/Application\ Support/Dolphin/Config/Profiles/Wiimote/`
 8. Select `DSUController` as **Profile**, and click **load**,
 
-    <img src="assets/dolphin/configure-controller.png" alt="Add DSU Client" width="640"/>
+    <img src="assets/dolphin/configure-controller.png" alt="Configure Controller" width="640"/>
 
 9. Close **Controller Settings** and start some games to have fun.
+
+### FAQ
+
+1. Why doesn't `DSUClient/x/` appear on Dolphin's Devices list?
+    > Try to restart the DSU server or relaunch the app.<br>
+    > Make sure the app and emulator are on the same Wi-Fi network, and [Local Network Access](https://support.apple.com/en-us/HT211870) is enabled on the app.
+2. Can it rumble?
+    > Yes, but the [PR](https://github.com/dolphin-emu/dolphin/pull/11545) for this feature is not merged currently.<br>
+    > You can download the trial version of Dolphin Emulator from this [action artifacts](https://github.com/breeze2/dolphin/actions/runs/4314377128).<br>
+    > Click **Motor**, and select `Motor 0` or `Motor 1` on **Configure Output** window. The phone will vibrate when you click **Test**.<br>
+    > <img src="assets/dolphin/configure-motor.png" alt="Configure Motor" width="640"/>
