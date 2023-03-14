@@ -39,10 +39,17 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 ### FAQ
 
 1. Why doesn't `DSUClient/x/` appear on Dolphin's Devices list?
-    > Try to restart the DSU server or relaunch the app.<br>
+    > Try to restart the DSU server or relaunch the app.<br />
     > Make sure the app and emulator are on the same Wi-Fi network, and [Local Network Access](https://support.apple.com/en-us/HT211870) is enabled on the app.
 2. Can it rumble?
-    > Yes, but the [PR](https://github.com/dolphin-emu/dolphin/pull/11545) for this feature is not merged currently.<br>
-    > You can download the trial version of Dolphin Emulator from this [action artifacts](https://github.com/breeze2/dolphin/actions/runs/4314377128).<br>
-    > Click **Motor**, and select `Motor 0` or `Motor 1` on **Configure Output** window. The phone will vibrate when you click **Test**.<br>
+    > Yes, but the [PR](https://github.com/dolphin-emu/dolphin/pull/11545) for this feature is not merged currently.<br />
+    > You can download the trial version of Dolphin Emulator from this [action artifacts](https://github.com/breeze2/dolphin/actions/runs/4314377128).<br />
+    > Click **Motor**, and select `Motor 0` or `Motor 1` on **Configure Output** window. The phone will vibrate when you click **Test**.<br />
     > <img src="assets/dolphin/configure-motor.png" alt="Configure Motor" width="640"/>
+3. Can it simulate Wii Nunchuk?
+    > Yes, but you need two smartphones.<br />
+    > First, download <a href="configs/dolphin/DSUController.ini" download="DSUController.ini">DSUController.ini</a> into the Dolphin Config folder.<br />
+    > Then select `DSUController_with_Nunchuk` as **Profile** on Dolphin Emulator controller settings window.<br />
+    > Make sure phone `DSUClient/0/` uses layout `Wii Remote` and phone `DSUClient/1/` uses layout `Wii Nunchuk` on DSUController settings page.<br />
+    > <img src="assets/dsu-controller/controller-page-nunchuk.png" alt="Controller Page" width="240"/>
+    > <img src="assets/dsu-controller/settings-page-nunchuk.png" alt="Settings Page" width="240"/>
