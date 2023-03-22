@@ -48,7 +48,7 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     > <img src="assets/dolphin/configure-motor.png" alt="Configure Motor" width="640"/>
 3. Can it simulate Wii Nunchuk?
     > Yes, but you need two smartphones.<br />
-    > First, download <a href="configs/dolphin/DSUController.ini" download="DSUController.ini">DSUController.ini</a> into the Dolphin Config folder.<br />
+    > First, download <a href="configs/dolphin/DSUController_with_Nunchuk.ini" download="DSUController_with_Nunchuk.ini">DSUController_with_Nunchuk.ini</a> into the Dolphin Config folder.<br />
     > Then select `DSUController_with_Nunchuk` as **Profile** on Dolphin Emulator controller settings window.<br />
     > Make sure phone `DSUClient/0/` uses layout `Wii Remote` and phone `DSUClient/1/` uses layout `Wii Nunchuk` on DSUController settings page.<br />
     > <img src="assets/dsu-controller/controller-page-nunchuk.png" alt="Controller Page" width="240"/>
