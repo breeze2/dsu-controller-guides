@@ -5,9 +5,8 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 
 ## Download
 
-<a href='https://play.google.com/store/apps/details?id=com.dsucontroller&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' style="height: 124px; object-position: -20px 20px;" /></a>
-<br/>
-<a href="https://apps.apple.com/us/app/dsucontroller/id1667281421?itsct=apps_box_badge&amp;itscg=30200" style="display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1676505600" alt="Download on the App Store" style="border-radius: 13px; width: 250px; height: 83px;"></a>
+<a href="https://play.google.com/store/apps/details?id=com.dsucontroller&pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1" style="background: none; border: 1px solid #a6a6a6; border: 2px solid #a6a6a6; padding: 0; height: 84px; border-radius: 9px; display: inline-block;"><img src="./assets/badges/play-store.png" alt="Get it on Google Play" width="256" height="80" /></a>
+<a href="https://apps.apple.com/us/app/dsucontroller/id1667281421?itsct=apps_box_badge&amp;itscg=30200" style="background: none; border: 1px solid #a6a6a6; border: 2px solid #a6a6a6; padding: 0; height: 84px; border-radius: 9px; display: inline-block;"><img src="./assets/badges/app-store.png" alt="Download on the App Store" width="256" height="80" /></a>
 <br/>
 <br/>
 
