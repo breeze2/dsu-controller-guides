@@ -59,3 +59,9 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     > When you touch `L` (or `R`), it will trigger the `L-Analog` (or `R-Analog`). Touch `L` (or `R`) and move out, it will trigger the real `L` (or `R`).<br />
     > <img src="assets/dsu-controller/controller-page-classic.png" alt="Controller Page" width="240"/>
     > <img src="assets/dsu-controller/settings-page-classic.png" alt="Settings Page" width="240"/>
+
+
+## Privacy & Terms
+
+- [Privacy](https://breeze2.github.io/dsu-controller-guides/privacy)
+- [Terms & Conditions](https://breeze2.github.io/dsu-controller-guides/terms)
