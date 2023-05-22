@@ -15,7 +15,7 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 <img src="assets/dsu-controller/controller-page.png" alt="Controller Page" width="240"/>
 <img src="assets/dsu-controller/settings-page.png" alt="Settings Page" width="240"/>
 
-## Run with Dolphin
+## Run with [Dolphin](https://dolphin-emu.org/)
 
 1. Open **Controller Settings** on Dolphin,
 2. Click **Alternate Input Sources**,
@@ -25,7 +25,7 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     <img src="assets/dolphin/add-dsu-client.png" alt="Add DSU Client" width="640"/>
 
 5. Select `Emulated Wii Remote` as **Wii Remote 1** and click **Configure**,
-6. Select `DSUClient/0/` as **Device**,
+6. Select `DSUClient/1/` as **Device**,
 7. Download <a href="configs/dolphin/DSUController.ini" download="DSUController.ini">DSUController.ini</a> into the Dolphin Config folder:
     > * windows: `~/Documents/Dolphin\ Emulator/Config/Profiles/Wiimote/`
     > * macOS: `~/Library/Application\ Support/Dolphin/Config/Profiles/Wiimote/`
@@ -49,17 +49,45 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     > Yes, but you need two smartphones.<br />
     > First, download <a href="configs/dolphin/DSUController_with_Nunchuk.ini" download="DSUController_with_Nunchuk.ini">DSUController_with_Nunchuk.ini</a> into the Dolphin Config folder.<br />
     > Then select `DSUController_with_Nunchuk` as **Profile** on Dolphin Emulator controller settings window and load it.<br />
-    > Make sure phone `DSUClient/0/` uses layout `Wii Remote` and phone `DSUClient/1/` uses layout `Wii Nunchuk` on DSUController settings page.<br />
+    > Make sure the phone `DSUClient/1/` uses layout `Wii Remote` and the phone `DSUClient/0/` uses layout `Wii Nunchuk` on DSUController settings page.<br />
     > <img src="assets/dsu-controller/controller-page-nunchuk.png" alt="Controller Page" width="240"/>
     > <img src="assets/dsu-controller/settings-page-nunchuk.png" alt="Settings Page" width="240"/>
 4. Can it simulate Wii Classic Controller?
     > Yes.<br />
     > First, download <a href="configs/dolphin/DSUController_with_Classic.ini" download="DSUController_with_Classic.ini">DSUController_with_Classic.ini</a> into the Dolphin Config folder.<br />
     > Then select `DSUController_with_Classic` as **Profile** on Dolphin Emulator controller settings window and load it.<br />
-    > When you touch `L` (or `R`), it will trigger the `L-Analog` (or `R-Analog`). Touch `L` (or `R`) and move out, it will trigger the real `L` (or `R`).<br />
     > <img src="assets/dsu-controller/controller-page-classic.png" alt="Controller Page" width="240"/>
     > <img src="assets/dsu-controller/settings-page-classic.png" alt="Settings Page" width="240"/>
 
+## Run with DSU Manager (on Windows)
+
+> Only supports windows at present
+
+1. Download and install latest [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases).
+2. Download and install latest [DSU Manager](https://github.com/breeze2/dsu-manager-guides/releases).
+3. Open DSU Manager, and click **Start**, you will get a QRCode.
+    > <img src="assets/dsu-manager/start.png" alt="DSU Manager Start" width="240"/>
+    > <img src="assets/dsu-manager/qrcode.png" alt="DSU Manager QRCode" width="240"/>
+4. Open the settings page on DSU Controller (v2.0 at least), click **Connect DSU Manager**, and then scan the QRCode.
+    > <img src="assets/dsu-controller/scan-qrcode.png" alt="Scan QRCode" width="240"/>
+    > <img src="assets/dsu-manager/device-list.png" alt="Device List" width="240"/>
+5. Now you get a virtual XInput controller, you can use it to play any games on your PC 🎉🎉🎉.
+
+
+## Run with [yuzu](https://github.com/yuzu-emu/yuzu) (on Windows)
+
+1. Similarly, you need to have [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) and [DSU Manager](https://github.com/breeze2/dsu-manager-guides/releases) installed first.
+2. Make sure DSU Controller is connected with DSU Manager.
+3. Open the settings page on DSU Controller, select `Xbox 360` or `JoyCon Left` as **Controller Layout**.
+4. Open the **yuzu Configuration** window, select **Controls** tab, select `Pro Controller` or`Left JoyCon` as **Connect Controller**, and select `Xbox 360 Controller 0` as **Input Device**, then yuzu will complete button mappings automatically.
+    > <img src="assets/yuzu/configure-controls.png" alt="Configure Controls" width="720"/>
+5. Check the **Vibration**.
+6. Check the **Motion**, Click **Motion Configure**.
+7. Open the **Configure Motion/Touch** window, add CemuhookUDP server (you can find the ip and port on DSU Manager), then click **OK** to close this window.
+    > <img src="assets/yuzu/configure-motion.png" alt="Configure Motion" width="480"/>
+    > <img src="assets/dsu-manager/device-ip-and-port.png" alt="Device Ip and Port" width="240"/>
+8. Click **Motion1 [not set]** or **Motion1 [mouse]**, shake your phone, it will change to **Motion1 [cemuhookudp]**.
+9. Next just enjoy your game on yuzu 🎉🎉🎉.
 
 ## Privacy & Terms
 
