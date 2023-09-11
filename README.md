@@ -89,6 +89,14 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 8. Click **Motion1 [not set]** or **Motion1 [mouse]**, shake your phone, it will change to **Motion1 [cemuhookudp]**.
 9. Next just enjoy your game on yuzu 🎉🎉🎉.
 
+## Magic combination Keys
+
+1. Select one magic layout, like `Xbox 360 Lite Magic`, or `JoyCon Left Magic` (v2.1 at least).
+2. Configure combination keys.
+3. For example, configure as shown, then press the `🔼` button and move, it will trigger the `L`(move to right) or `ZL`(move to left) pressing.
+    > <img src="assets/dsu-controller/settings-for-joycon-left-magic.png" alt="Configure Motion" width="240"/>
+    > <img src="assets/dsu-controller/press-joycon-left-magic.png" alt="Device Ip and Port" width="240"/>
+
 ## Privacy & Terms
 
 - [Privacy](https://breeze2.github.io/dsu-controller-guides/privacy)
