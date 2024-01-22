@@ -73,6 +73,13 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     > <img src="assets/dsu-manager/device-list.png" alt="Device List" width="240"/>
 5. Now you get a virtual XInput controller, you can use it to play any games on your PC 🎉🎉🎉.
 
+### FAQ
+
+1. How to press JoyStick (trigger l3 or r3) ?
+    > Within half a second (0.5s), double tap the joystick on DSUController (v2.2.3 at least), will trigger the joystick pressing.
+2. After scanning the QR code, nothing happened?
+    > Make sure DSUManager can communicate through Windows Firewall, please refer to this video, [How to Allow a program to communicate through Windows Firewall for Microsoft](https://www.dell.com/support/contents/en-us/videos/videoplayer/how-to-allow-a-program-to-communicate-through-windows-firewall-for-microsoft/6079812902001).
+
 
 ## Run with [yuzu](https://github.com/yuzu-emu/yuzu) (on Windows)
 
