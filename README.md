@@ -86,7 +86,7 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 1. Similarly, you need to have [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) and [DSU Manager](https://github.com/breeze2/dsu-manager-guides/releases) installed first.
 2. Make sure DSU Controller is connected with DSU Manager.
 3. Open the settings page on DSU Controller, select `Xbox 360` or `JoyCon Left` as **Controller Layout**.
-4. Open the **yuzu Configuration** window, select **Controls** tab, select `Pro Controller` or`Left JoyCon` as **Connect Controller**, and select `Xbox 360 Controller 0` as **Input Device**, then yuzu will complete button mappings automatically.
+4. Open the **yuzu Configuration** window, select **Controls** tab, select `Pro Controller` or `Left JoyCon` as **Connect Controller**, and select `Xbox 360 Controller 0` as **Input Device**, then yuzu will complete button mappings automatically.
     > <img src="assets/yuzu/configure-controls.png" alt="Configure Controls" width="720"/>
 5. Check the **Vibration**.
 6. Check the **Motion**, Click **Motion Configure**.
@@ -95,6 +95,20 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     > <img src="assets/dsu-manager/device-ip-and-port.png" alt="Device Ip and Port" width="240"/>
 8. Click **Motion1 [not set]** or **Motion1 [mouse]**, shake your phone, it will change to **Motion1 [cemuhookudp]**.
 9. Next just enjoy your game on yuzu 🎉🎉🎉.
+
+## Run with [Ryujinx](https://github.com/Ryujinx/Ryujinx) (on Windows)
+
+1. Similarly, you need to have [ViGEmBus](https://github.com/ViGEm/ViGEmBus/releases) and [DSU Manager](https://github.com/breeze2/dsu-manager-guides/releases) installed first.
+2. Make sure DSU Controller is connected with DSU Manager.
+3. Open the settings page on DSU Controller, select `Xbox 360` or `JoyCon Left` as **Controller Layout**.
+4. Open the **Ryujinx Settings** window, select **Input** tab, select `Pro Controller` or `Left JoyCon` as **Controller Type**, and select `Xbox 360 Controller (0)` as **Input Device**, then Ryujinx will complete button mappings automatically.
+    > <img src="assets/ryujinx/configure-controls.png" alt="Configure Controls" width="720"/>
+5. Check the **Rumble**.
+6. Check the **Motion**, Click **Configure**.
+7. Open the **Motion Control Settings** window, check the **Use CemuHook compatible motion**, input the ip and port of the server host (you can find the ip and port on DSU Manager), input `1` as **Controller Slot**.
+    > <img src="assets/ryujinx/configure-motion.png" alt="Configure Motion" width="480"/>
+8. Click **Save** and click **OK**.
+9. Next just enjoy your game on Ryujinx 🎉🎉🎉.
 
 ## Magic combination Keys
 
