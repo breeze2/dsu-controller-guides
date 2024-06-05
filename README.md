@@ -17,19 +17,19 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 
 ## Run with [Dolphin](https://dolphin-emu.org/)
 
-1. Open **Controller Settings** on Dolphin,
-2. Click **Alternate Input Sources**,
-3. Check **Enable**,
-4. Click **Add...**, input the DSUController's IP address and port number (find them on the settings page),
+1. Open **Controller Settings** on Dolphin.
+2. Click **Alternate Input Sources**.
+3. Check **Enable**.
+4. Click **Add...**, input the DSUController's IP address and port number (find them on the settings page).
 
     <img src="assets/dolphin/add-dsu-client.png" alt="Add DSU Client" width="640"/>
 
-5. Select `Emulated Wii Remote` as **Wii Remote 1** and click **Configure**,
-6. Select `DSUClient/1/` as **Device**,
+5. Select `Emulated Wii Remote` as **Wii Remote 1** and click **Configure**.
+6. Select `DSUClient/1/` as **Device**.
 7. Download <a href="configs/dolphin/DSUController.ini" download="DSUController.ini">DSUController.ini</a> into the Dolphin Config folder:
     > * windows: `~/Documents/Dolphin\ Emulator/Config/Profiles/Wiimote/`
     > * macOS: `~/Library/Application\ Support/Dolphin/Config/Profiles/Wiimote/`
-8. Select `DSUController` as **Profile**, and click **load**,
+8. Select `DSUController` as **Profile**, and click **load**.
 
     <img src="assets/dolphin/configure-controller.png" alt="Configure Controller" width="640"/>
 
@@ -58,6 +58,26 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     > Then select `DSUController_with_Classic` as **Profile** on Dolphin Emulator controller settings window and load it.<br />
     > <img src="assets/dsu-controller/controller-page-classic.png" alt="Controller Page" width="240"/>
     > <img src="assets/dsu-controller/settings-page-classic.png" alt="Settings Page" width="240"/>
+
+## Run with Cemu 2.0
+
+1. Open **Input settings** on Cemu 2.0,
+2. Select `Wii U GamePad` as **Emulated controller** (suppose you select `Wii Classic` as **Controller Layout** on DSUController app).
+    > <img src="assets/cemu/configure-controls.png" alt="Controller Searching" width="720"/>
+3. Click the `+` button next to the **Controller** dropdown, select `DSUController` as **API** and input the ip and port (you can find them on DSUController app).
+    > <img src="assets/cemu/configure-dsu-ip-and-port.png" alt="Controller Searching" width="240"/>
+4. Wait for the searching, select `Controller 2` as **Controller** and click the `Add` button.
+    > <img src="assets/cemu/configure-dsu-searching.png" alt="Controller Searching" width="240"/>
+    > <img src="assets/cemu/configure-dsu-searched.png" alt="Controller Searched" width="240"/>
+5. Click **Settings** and check **Use motion**.
+    > <img src="assets/cemu/configure-motion.png" alt="Controller Settings" width="640"/>
+6. Configure key mappings:
+    > * Click the `A` button on Cemu and then press the `a` button on DSUController app.
+    > * Click the `click` button of **Left Axis** and then double press the left stick on DSUController app.
+    > * And more...
+    > <br/><img src="assets/cemu/configure-key-mapping.png" alt="Controller Key Mapping" width="720"/>
+7. Close **Input settings** and start some games to have fun.
+
 
 ## Run with DSU Manager (on Windows)
 
