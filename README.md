@@ -42,7 +42,7 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
     > Make sure the app and emulator are on the same Wi-Fi network, and [Local Network Access](https://support.apple.com/en-us/HT211870) is enabled on the app.
 2. Can it rumble?
     > Yes, but the [PR](https://github.com/dolphin-emu/dolphin/pull/11545) for this feature is not merged currently.<br />
-    > You can download the trial version of Dolphin Emulator from this [action artifacts](https://github.com/breeze2/dolphin/actions/runs/4314377128).<br />
+    > You can download the trial version of Dolphin Emulator from the [artifacts](https://github.com/breeze2/dsu-controller-guides/releases).<br />
     > Click **Motor**, and select `Motor 0` or `Motor 1` on **Configure Output** window. The phone will vibrate when you click **Test**.<br />
     > <img src="assets/dolphin/configure-motor.png" alt="Configure Motor" width="640"/>
 3. Can it simulate Wii Nunchuk?
