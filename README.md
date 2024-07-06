@@ -96,7 +96,7 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 ### FAQ
 
 1. How to press JoyStick (trigger l3 or r3) ?
-    > Within half a second (0.5s), double tap the joystick on DSUController (v2.2.3 at least), will trigger the joystick pressing.
+    > Within half a second (0.5s), double tap the joystick on DSUController (v2.3.0 at least), will trigger the joystick pressing.
 2. After scanning the QR code, nothing happened?
     > Make sure DSUManager can communicate through Windows Firewall, please refer to this video, [How to Allow a program to communicate through Windows Firewall for Microsoft](https://www.dell.com/support/contents/en-us/videos/videoplayer/how-to-allow-a-program-to-communicate-through-windows-firewall-for-microsoft/6079812902001).
 
@@ -137,6 +137,12 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 3. For example, configure as shown, then press the `🔼` button and move, it will trigger the `L`(move to right) or `ZL`(move to left) pressing.
     > <img src="assets/dsu-controller/settings-for-joycon-left-magic.png" alt="Configure Motion" width="240"/>
     > <img src="assets/dsu-controller/press-joycon-left-magic.png" alt="Device Ip and Port" width="240"/>
+
+## Use the game controller connected with your phone
+See [#12](https://github.com/breeze2/dsu-controller-guides/issues/12)
+
+## Lock buttons
+See [#25](https://github.com/breeze2/dsu-controller-guides/issues/25)
 
 ## Privacy & Terms
 

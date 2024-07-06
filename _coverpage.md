@@ -1,6 +1,6 @@
 ![logo](favicon.png)
 
-# DSU Controller <small>2.2.3</small>
+# DSU Controller <small>2.3.0</small>
 
 > A mobile app to simulate some game controllers.
 
