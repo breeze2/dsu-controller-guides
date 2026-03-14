@@ -15,6 +15,18 @@ It can be used with [Cemu](http://cemu.info/) using [Cemuhook](https://sshnuke.n
 <img src="assets/dsu-controller/controller-page.png" alt="Controller Page" width="240"/>
 <img src="assets/dsu-controller/settings-page.png" alt="Settings Page" width="240"/>
 
+## Custom Gamepad Layout
+
+Open the gamepad layout editor page, [https://gamepad-layout.vaercel.app/](https://gamepad-layout.vaercel.app/) or [https://gamepad-layout.breezlin.cn/](https://gamepad-layout.breezlin.cn/)
+
+<img src="assets/gamepad-layout/editor-page.png" alt="Gamepad Layout" width="640"/>
+
+- First, adjust the layout size for your phone,. You can find the recommended size on **Settings** page of DSUController app(v3.0.6 at least).
+- If you want to simulate **Switch Pro Controller**, select `Orientation` as **Landscape**; if you want to simulate **Wii Remote**, **JoyCon Left**, **JoyCon Right**, keep `Orientation` as **Portrait**.
+- Drag the component you want to the green area.
+- Click the **Generate** button, you'll get a QR code.
+- Scan the QR code with DSUController app(v3.0.6 at least), and it will load your custom layout.
+
 ## Run with [Dolphin](https://dolphin-emu.org/)
 
 1. Open **Controller Settings** on Dolphin.
